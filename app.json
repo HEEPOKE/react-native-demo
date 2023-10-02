@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "react-native-demo",
-    "slug": "react-native-demo",
+    "slug": "react-native-demo-new",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,20 +11,34 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.heepoke.reactnativedemonew",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      // infoPlist: {
+        // UIBackgroundModes: [
+        //   "fetch",
+        //   "remote-notification"
+        // ]
+    //  }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.heepoke.reactnativedemonew",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fb06267a-45a7-4caf-a090-5238e7bb23b9"
+      }
+    },
+    "plugins": ["@react-native-firebase/app"]
   }
 }
