@@ -14,7 +14,13 @@ yarn ios
 yarn android
 ```
 
-## How to  build\
+## How to  build
+
+- preBuild
+
+```bash
+npx expo prebuild
+```
 
 - ios
 

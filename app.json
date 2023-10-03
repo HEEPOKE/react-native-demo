@@ -15,13 +15,13 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.heepoke.reactnativedemonew",
-      "googleServicesFile": "./GoogleService-Info.plist",
+      "googleServicesFile": "./GoogleService-Info.plist"
       // infoPlist: {
-        // UIBackgroundModes: [
-        //   "fetch",
-        //   "remote-notification"
-        // ]
-    //  }
+      // UIBackgroundModes: [
+      //   "fetch",
+      //   "remote-notification"
+      // ]
+      //  }
     },
     "android": {
       "adaptiveIcon": {
@@ -39,6 +39,6 @@
         "projectId": "fb06267a-45a7-4caf-a090-5238e7bb23b9"
       }
     },
-    "plugins": ["@react-native-firebase/app"]
+    "plugins": ["@react-native-firebase/app", "expo-notifications"]
   }
 }
