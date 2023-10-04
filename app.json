@@ -12,8 +12,10 @@
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": ["**/*"],
+    "jsEngine": "hermes",
     "ios": {
       "supportsTablet": true,
+      "jsEngine": "jsc",
       "bundleIdentifier": "com.heepoke.reactnativedemonew",
       "googleServicesFile": "./GoogleService-Info.plist"
       // infoPlist: {
